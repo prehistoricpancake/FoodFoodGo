@@ -4,13 +4,29 @@ import { StyleSheet, StatusBar, SafeAreaView, Text, View, Platform } from 'react
 import { Searchbar } from 'react-native-paper';
 import RestaurantScreen  from './src/features/restaurants/screens/restaurants.screen';
 import RestaurantInfo  from './src/features/restaurants/components/restaurants-info.components';
-import { ThemeProvider } from "styled-components/native";
-import { theme } from "./src/infra/index";
+import { ThemeProvider } from 'styled-components/native';
+import { theme } from './src/infra/theme/index';
 
-const isAndroid = Platform.OS === 'android';
+import {
+  useFonts as useOswald,
+  Oswald_400Regular,
+} from "@expo-google-fonts/oswald";
 
+import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 
 export default function App() {
+  const [ oswaldLoaded ] = useOswald({
+    Oswald_400Regular
+  });
+
+  const [latoLoaded] = useLato({
+    Lato_400Regular,
+  });
+
+  if(!oswaldLoaded || !latoLoaded){
+    return null;
+  }
+
   return (
   
       <>
