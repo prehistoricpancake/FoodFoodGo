@@ -2,7 +2,7 @@ import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, StatusBar, SafeAreaView, Text, View, Platform } from 'react-native';
 import { Searchbar } from 'react-native-paper';
-import RestaurantInfoCard from '../components/restaurants-info.components';
+import RestaurantInfoCard from '../components/restaurants-info-card.components';
 import styled from "styled-components/native";
 
 
