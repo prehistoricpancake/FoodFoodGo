@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, StatusBar, SafeAreaView, Text, View, Platform } from 'react-native';
 import { Searchbar } from 'react-native-paper';
 import RestaurantScreen  from './src/features/restaurants/screens/restaurants.screen';
-import RestaurantInfo  from './src/features/restaurants/components/restaurants-info.components';
+import RestaurantInfo  from './src/features/restaurants/components/restaurants-info-card.components';
 import { ThemeProvider } from 'styled-components/native';
 import { theme } from './src/infra/theme/index';
 
