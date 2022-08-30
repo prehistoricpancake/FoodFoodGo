@@ -39,8 +39,9 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
         <Text variant="label">{name}</Text>
         <Section>
           <Rating>
-            {ratingArray.map((_, i) => (
-              <SvgXml key={`star-${placeId}-${i}`} xml={star} width={20} height={20} />
+            {ratingArray.map(() => (
+              //figure out why stars are  being duplicated upon adding a key
+              <SvgXml xml={star} width={20} height={20} />
             ))}
           </Rating>
           <SectionEnd>
