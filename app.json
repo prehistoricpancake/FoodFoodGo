@@ -4,11 +4,11 @@
     "slug": "FoodFoodGo",
     "version": "0.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#bb7d3c"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
