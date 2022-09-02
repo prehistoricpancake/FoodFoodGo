@@ -24,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/splash.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "host.exp.Exponent"
     },
     "web": {
       "favicon": "./assets/favicon.png"
