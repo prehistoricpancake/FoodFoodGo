@@ -22,9 +22,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon@3x.png",
+        "foregroundImage": "./assets/splash.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "host.exp.Exponent"
     },
     "web": {
       "favicon": "./assets/favicon.png"
